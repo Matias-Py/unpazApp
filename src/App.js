@@ -6,7 +6,7 @@ const Materia = ({id,formateador}) => {
   const [laMateria,setLaMateria] = useState([])
   const hooks = () =>  {
     axios
-    .get(`http://localhost:3001/lgti/materias/${id}`)
+    .get(`https://apiunpaz-production.up.railway.app/lgti/materias/${id}`)
     .then(response => {
       setLaMateria(response.data)
     })
@@ -35,7 +35,7 @@ const App = () => {
 
   const hooks = () => {
     axios
-    .get("http://localhost:3001/lgti/materias")
+    .get("https://apiunpaz-production.up.railway.app/lgti/materias")
     .then(response => {
       setLista(response.data)
     })
