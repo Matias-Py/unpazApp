@@ -64,7 +64,7 @@ const App = () => {
               <li>{materia.nombre} <button onClick={() => {verMas(materia.id)}}>Ver más</button></li>
             ))}
         </ul>
-        <h3>Tercero Cuatrimestre</h3>
+        <h3>Tercer Cuatrimestre</h3>
         <ul>
             {lista.filter(m => m.cuatrimestre === 3).map(materia => (
               <li>{materia.nombre} <button onClick={() => {verMas(materia.id)}}>Ver más</button></li>
