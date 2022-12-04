@@ -1,3 +1,6 @@
+*{
+  text-align: center;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+span{
+  font-weight: bold;
+}
+.contenedorMateria{
+  width: 80%;
+  margin: auto;
+}
+ul li{
+  margin-bottom: 0.5em;
+}
+
+button{
+  background-color: #03045E;
+  color: #CAF0F8;
+  border: none;
+  padding: 0.4em;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#carrera{
+  width: 90%;
+  margin: auto;
+}
+a:visited{
+  color: #CAF0F8;
+  font-weight: bold;
+  text-decoration: none;
+}
+a{
+  color: #CAF0F8;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.volverAbuscar{
+  margin-bottom: 2em;
 }
