@@ -50,7 +50,7 @@ const App = () => {
     return (
       <div>
         <div id="carrera">
-          <h1>Materias de la Licenciatura en gestión en tecnoloías de la información 🤓</h1>
+          <h1>Materias de la Licenciatura en gestión en tecnologías de la información 🤓</h1>
         </div>
         <h3>Primer Cuatrimestre</h3>
         <ul>
