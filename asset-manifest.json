@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unpazApp/static/css/main.b194e895.css",
+    "main.js": "/unpazApp/static/js/main.4c2d56a0.js",
+    "index.html": "/unpazApp/index.html",
+    "main.b194e895.css.map": "/unpazApp/static/css/main.b194e895.css.map",
+    "main.4c2d56a0.js.map": "/unpazApp/static/js/main.4c2d56a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b194e895.css",
+    "static/js/main.4c2d56a0.js"
+  ]
+}
