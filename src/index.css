@@ -19,4 +19,5 @@ footer{
   font-weight: bold;
   bottom: 0px;
   width: 100%;
+  position:absolute;
 }
